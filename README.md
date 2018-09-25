@@ -18,6 +18,7 @@ Evaluating reduction of calculation by bottleneck layer (1x1 conv).
 * Tried 5 times per pattern.
 * val_acc, (sd) are maximum of validation accuracy's median and standard-deviation.
 * s / epoch is training time(seconds) per epoch excluding 1st epoch, and took median and standard-deviation.
+* Trained by google colab.
 
 # Model summary
 Evaluate simple inception module like this:
@@ -52,3 +53,4 @@ Changed the value of α to 2 and 4 and made 5 patterns: (# pseudo calculation is
 |     E    |    3   | 4 |  28,986,368 |        308,318 |  94.0 |
 
 # More details(Japanese)
+https://qiita.com/koshian2/items/031b6a335d0d217e4c4c
